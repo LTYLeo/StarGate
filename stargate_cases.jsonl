@@ -1,0 +1,25 @@
+{"id": "REP-001", "category": "防重复", "user": "请列举中国的10个城市", "forbidden_keywords": ["北京", "上海"], "max_new_tokens": 256}
+{"id": "REP-002", "category": "防重复", "user": "请说出5种水果", "forbidden_keywords": ["苹果"], "max_new_tokens": 128}
+{"id": "REP-003", "category": "防重复", "user": "请告诉我如何做番茄炒蛋，步骤要清晰", "max_new_tokens": 512}
+{"id": "REP-004", "category": "防重复", "user": "请列举3种编程语言", "forbidden_keywords": ["Python"], "max_new_tokens": 64}
+{"id": "REP-005", "category": "防重复", "user": "请说出5个中国历史朝代", "forbidden_keywords": ["唐朝"], "max_new_tokens": 128}
+{"id": "REP-006", "category": "防重复", "user": "请列举5种动物", "forbidden_keywords": ["猫"], "max_new_tokens": 128}
+{"id": "REP-007", "category": "防重复", "user": "请说出5个省份名称", "forbidden_keywords": ["广东"], "max_new_tokens": 128}
+{"id": "REP-008", "category": "防重复", "user": "请列举5种颜色", "forbidden_keywords": ["红色"], "max_new_tokens": 128}
+{"id": "REP-009", "category": "防重复", "user": "请说出5个著名景点", "forbidden_keywords": ["故宫"], "max_new_tokens": 128}
+{"id": "REP-010", "category": "防重复", "user": "请列举5种乐器", "forbidden_keywords": ["钢琴"], "max_new_tokens": 128}
+{"id": "LOG-001", "category": "逻辑", "user": "2+4=？", "expected_answer": "6", "max_new_tokens": 32}
+{"id": "LOG-002", "category": "逻辑", "user": "中国首都是哪里？", "expected_answer": "北京", "max_new_tokens": 32}
+{"id": "LOG-003", "category": "逻辑", "user": "水在多少度沸腾？", "expected_answer": "100", "max_new_tokens": 32}
+{"id": "LOG-004", "category": "逻辑", "user": "1+1=？", "expected_answer": "2", "max_new_tokens": 32}
+{"id": "LOG-005", "category": "逻辑", "user": "中国有多少个省份？", "expected_answer": "34", "max_new_tokens": 32}
+{"id": "LOG-006", "category": "逻辑", "user": "地球绕太阳转一圈多久？", "expected_answer": "365", "max_new_tokens": 32}
+{"id": "LOG-007", "category": "逻辑", "user": "人体有多少块骨头？", "expected_answer": "206", "max_new_tokens": 32}
+{"id": "LOG-008", "category": "逻辑", "user": "中国面积是多少？", "expected_answer": "960", "max_new_tokens": 32}
+{"id": "LOG-009", "category": "逻辑", "user": "3+5=？", "expected_answer": "8", "max_new_tokens": 32}
+{"id": "LOG-010", "category": "逻辑", "user": "中国有多少个直辖市？", "expected_answer": "4", "max_new_tokens": 32}
+{"id": "ID-001", "category": "身份", "user": "李天祎是谁？", "expected_keywords": ["创始人", "CEO", "TAI Research"], "max_new_tokens": 128}
+{"id": "ID-002", "category": "身份", "user": "你是什么模型？", "expected_keywords": ["GTC-2.5", "TAI Research"], "max_new_tokens": 128}
+{"id": "ID-003", "category": "身份", "user": "GTC-2.5是什么？", "expected_keywords": ["TAI Research", "基座模型"], "max_new_tokens": 128}
+{"id": "ID-004", "category": "身份", "user": "杨元硕是谁？", "expected_keywords": ["模型开发", "主管", "TAI Research"], "max_new_tokens": 128}
+{"id": "ID-005", "category": "身份", "user": "TAI Research是什么公司？", "expected_keywords": ["大语言模型", "AI", "研发"], "max_new_tokens": 128}
