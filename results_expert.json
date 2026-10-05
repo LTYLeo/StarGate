@@ -1,0 +1,274 @@
+{
+  "summary": {
+    "model": "tfmf",
+    "thinking": false,
+    "temperature": 0.0,
+    "total": 25,
+    "passed": 15,
+    "score": 60.0,
+    "by_category": {
+      "biology": {
+        "passed": 2,
+        "total": 2,
+        "score": 100.0
+      },
+      "chemistry": {
+        "passed": 2,
+        "total": 3,
+        "score": 66.7
+      },
+      "chinese_classical": {
+        "passed": 3,
+        "total": 3,
+        "score": 100.0
+      },
+      "computer_science": {
+        "passed": 3,
+        "total": 4,
+        "score": 75.0
+      },
+      "logic": {
+        "passed": 2,
+        "total": 3,
+        "score": 66.7
+      },
+      "mathematics": {
+        "passed": 2,
+        "total": 6,
+        "score": 33.3
+      },
+      "physics": {
+        "passed": 1,
+        "total": 4,
+        "score": 25.0
+      }
+    }
+  },
+  "results": [
+    {
+      "id": "MA-001",
+      "category": "mathematics",
+      "user": "求 7^2026 除以 100 的余数。只回答数字。",
+      "answer": "94",
+      "passed": false,
+      "why": "missing expected '49'",
+      "seconds": 0.17
+    },
+    {
+      "id": "MA-002",
+      "category": "mathematics",
+      "user": "一个正整数的各位数字之积等于 2025，求满足条件的最小正整数。只回答数字。",
+      "answer": "12555",
+      "passed": false,
+      "why": "missing expected '555999'",
+      "seconds": 0.15
+    },
+    {
+      "id": "MA-003",
+      "category": "mathematics",
+      "user": "从 1 到 1000 的整数中，有多少个数的十进制表示中不含数字 7？只回答数字。",
+      "answer": "694",
+      "passed": false,
+      "why": "missing expected '729'",
+      "seconds": 0.12
+    },
+    {
+      "id": "MA-004",
+      "category": "mathematics",
+      "user": "设 f(x) = x^2 - 3x + 2。求 f(f(3)) 的值。只回答数字。",
+      "answer": "14",
+      "passed": false,
+      "why": "missing expected '0'",
+      "seconds": 0.11
+    },
+    {
+      "id": "MA-005",
+      "category": "mathematics",
+      "user": "一个袋子里有 3 个红球和 2 个蓝球，不放回地取两个球，两个球颜色相同的概率是多少？用最简分数表示，格式如 3/10。",
+      "answer": "要计算两个球颜色相同的概率，我们可以先计算总的取法数量，再分别计算两个红球或两个蓝球的取法数量。\n\n**第一步：计算总的可能情况数**\n袋子里共有 $3 + 2 = 5$ 个球。\n从中不放回地取出 2 个球的组合数为：\n$$ C(5, 2) = \\frac{5 \\times 4}{2 \\times 1} = 10 $$\n\n**第二步：计算两个球颜色相同的情况数**\n颜色相同意味着要么是两个红球，要么是两个蓝球。\n\n1.  **取出两个红球的情况：**\n    从 3 个红球中取 2 个：\n    $$ C(3, 2) = \\frac{3 \\times 2}{2 \\times 1} = 3 $$\n\n2.  **取出两个蓝球的情况：**\n    从 2 个蓝球中取 2 个：\n    $$ C(2, 2) = 1 $$\n\n因此，颜色相同的情况总数为 $3 + 1 = 4$。\n\n**第三步：计算概率并化简**\n概率 $P$ 为有利情况数除以总情况数：\n$$ P = \\frac{4}{10} $$\n\n将分数化为最简形式（分子分母同时除以 2）：\n$$ P = \\frac{2}{5} $$\n\n2/5",
+      "passed": true,
+      "why": "ok",
+      "seconds": 3.15
+    },
+    {
+      "id": "MA-006",
+      "category": "mathematics",
+      "user": "计算 C(10,3) × C(7,2) 的值。只回答数字。",
+      "answer": "2520",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.12
+    },
+    {
+      "id": "PH-001",
+      "category": "physics",
+      "user": "一个质量 2 kg 的物体从 20 m 高处自由落下（不计空气阻力，g 取 10 m/s²）。落地时的动能是多少焦耳？只回答数字。",
+      "answer": "400",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.12
+    },
+    {
+      "id": "PH-002",
+      "category": "physics",
+      "user": "一个电阻为 4 Ω 的用电器接在 12 V 电源上，通电 5 分钟消耗的电能是多少焦耳？只回答数字。",
+      "answer": "6000",
+      "passed": false,
+      "why": "missing expected '10800'",
+      "seconds": 0.13
+    },
+    {
+      "id": "PH-003",
+      "category": "physics",
+      "user": "光从空气射入折射率为 1.5 的玻璃中（空气折射率取 1），折射角约为多少度？入射角为 30°，答案保留一位小数，只回答数字。",
+      "answer": "41.8",
+      "passed": false,
+      "why": "missing expected '19.5'",
+      "seconds": 0.13
+    },
+    {
+      "id": "PH-004",
+      "category": "physics",
+      "user": "一个 1000 kg 的汽车以 20 m/s 行驶，刹车后 4 秒停下。刹车过程中的平均制动力是多少牛顿？只回答数字。",
+      "answer": "-500",
+      "passed": false,
+      "why": "missing expected '5000'",
+      "seconds": 0.13
+    },
+    {
+      "id": "CH-001",
+      "category": "chemistry",
+      "user": "某元素原子的最外层电子构型为 3d⁵4s¹，该元素的原子序数是多少？只回答数字。",
+      "answer": "26",
+      "passed": false,
+      "why": "missing expected '24'",
+      "seconds": 0.11
+    },
+    {
+      "id": "CH-002",
+      "category": "chemistry",
+      "user": "在标准状况下，22.4 L 的氧气含有多少个氧气分子？用阿伏伽德罗常数表示为多少 NA，只回答数字。",
+      "answer": "1",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.11
+    },
+    {
+      "id": "CH-003",
+      "category": "chemistry",
+      "user": "完全燃烧 1 mol 的乙醇需要多少 mol 的氧气？只回答数字。",
+      "answer": "3",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.09
+    },
+    {
+      "id": "BI-001",
+      "category": "biology",
+      "user": "一个 DNA 双链片段中，腺嘌呤占碱基总数的 20%。胞嘧啶占多少百分比？只回答数字。",
+      "answer": "30",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.11
+    },
+    {
+      "id": "BI-002",
+      "category": "biology",
+      "user": "人类体细胞进行有丝分裂后，每个子细胞含有多少条染色体？只回答数字。",
+      "answer": "46",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.1
+    },
+    {
+      "id": "CS-001",
+      "category": "computer_science",
+      "user": "在含有 n 个元素的有序数组中进行二分查找，最坏情况下的比较次数是多少？用大 O 记号表示，格式如 O(n)。",
+      "answer": "在含有 $n$ 个元素的有序数组中进行二分查找（Binary Search），其时间复杂度分析如下：\n\n1.  **算法原理**：二分查找每次将搜索区间缩小一半。\n2.  **最坏情况**：当目标元素不存在于数组中，或者位于数组的最后一个被检查的位置时，需要进行最多的比较次数。\n3.  **数学推导**：\n    *   第 1 次比较后，剩余 $n/2$ 个元素。\n    *   第 2 次比较后，剩余 $n/4$ 个元素。\n    *   ...\n    *   经过 $k$ 次比较后，剩余元素个数约为 $n / 2^k$。\n    *   当剩余元素个数为 1 时（即最后一次可能找到或确认不存在），此时 $n / 2^k \\approx 1$，解得 $k \\approx \\log_2 n$。\n\n因此，最坏情况下的比较次数约为 $\\lfloor \\log_2 n \\rfloor + 1$。\n\n用大 O 记号表示为：\n**O(log n)**",
+      "passed": true,
+      "why": "ok",
+      "seconds": 2.55
+    },
+    {
+      "id": "CS-002",
+      "category": "computer_science",
+      "user": "一个完全二叉树有 1000 个结点，它的高度是多少？（根结点高度记为 1）只回答数字。",
+      "answer": "10",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.12
+    },
+    {
+      "id": "CS-003",
+      "category": "computer_science",
+      "user": "对于 n 个元素，快速排序在最坏情况下的时间复杂度是多少？用大 O 记号表示。",
+      "answer": "对于 $n$ 个元素，快速排序（Quick Sort）在**最坏情况**下的时间复杂度是：\n\n$$O(n^2)$$\n\n### 原因分析：\n快速排序的平均时间复杂度为 $O(n \\log n)$，这发生在每次划分都能将数组大致均等分成两部分时。然而，在最坏情况下，每次划分都会极度不平衡（例如，总是选择第一个或最后一个元素作为基准值，且该元素恰好是数组中最大或最小的元素）。\n\n在这种情况下：\n1. 第一次划分产生一个大小为 $n-1$ 的子问题和一个大小为 $0$ 的子问题。\n2. 第二次划分产生一个大小为 $n-2$ 的子问题和一个大小为 $0$ 的子问题。\n3. 依此类推，直到最后剩下一个元素。\n\n总的比较次数约为：\n$$ (n-1) + (n-2) + \\dots + 1 = \\frac{n(n-1)}{2} $$\n\n当 $n$ 趋向于无穷大时，$\\frac{n^2 - n}{2}$ 的主导项是 $\\frac{1}{2}n^2$，因此用大 O 记号表示即为 **$O(n^2)$**。",
+      "passed": false,
+      "why": "missing expected 'O(n²)'",
+      "seconds": 2.67
+    },
+    {
+      "id": "CS-004",
+      "category": "computer_science",
+      "user": "一个 32 位有符号整数能表示的最大值是多少（十进制）？只回答数字。",
+      "answer": "2147483647",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.18
+    },
+    {
+      "id": "LO-001",
+      "category": "logic",
+      "user": "五个盒子排成一排。已知：红盒在白盒左边；蓝盒在最右端；绿盒紧挨着红盒右边；黑盒在第三个位置。白盒在第几个位置？只回答数字。",
+      "answer": "4",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.11
+    },
+    {
+      "id": "LO-002",
+      "category": "logic",
+      "user": "若「所有 A 都是 B」为真，「有些 B 不是 C」为真，那么「有些 A 不是 C」是否必然为真？只回答「是」或「否」。",
+      "answer": "否",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.11
+    },
+    {
+      "id": "LO-003",
+      "category": "logic",
+      "user": "有三个开关分别控制楼上三盏灯，你只能上楼一次。最少需要下楼几次才能确定对应关系？只回答数字。",
+      "answer": "1",
+      "passed": false,
+      "why": "missing expected '0'",
+      "seconds": 0.11
+    },
+    {
+      "id": "CL-001",
+      "category": "chinese_classical",
+      "user": "《岳阳楼记》中「先天下之忧而忧」的下一句是什么？只回答这一句。",
+      "answer": "后天下之乐而乐",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.14
+    },
+    {
+      "id": "CL-002",
+      "category": "chinese_classical",
+      "user": "「落霞与孤鹜齐飞」出自哪篇文章？只回答篇名。",
+      "answer": "《滕王阁序》",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.14
+    },
+    {
+      "id": "CL-003",
+      "category": "chinese_classical",
+      "user": "《史记》中「人固有一死」的下一句是什么？只回答这一句。",
+      "answer": "或重于泰山，或轻于鸿毛。",
+      "passed": true,
+      "why": "ok",
+      "seconds": 0.18
+    }
+  ]
+}

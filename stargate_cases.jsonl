@@ -1,25 +1,25 @@
-{"id": "MA-001", "category": "mathematics", "user": "求 7^2026 除以 100 的余数。只回答数字。", "max_new_tokens": 1024, "expected_answer": "49"}
-{"id": "MA-002", "category": "mathematics", "user": "一个正整数的各位数字之积等于 2025，求满足条件的最小正整数。只回答数字。", "max_new_tokens": 1024, "expected_answer": "555999"}
-{"id": "MA-003", "category": "mathematics", "user": "从 1 到 1000 的整数中，有多少个数的十进制表示中不含数字 7？只回答数字。", "max_new_tokens": 1024, "expected_answer": "729"}
-{"id": "MA-004", "category": "mathematics", "user": "设 f(x) = x^2 - 3x + 2。求 f(f(3)) 的值。只回答数字。", "max_new_tokens": 768, "expected_answer": "0"}
-{"id": "MA-005", "category": "mathematics", "user": "一个袋子里有 3 个红球和 2 个蓝球，不放回地取两个球，两个球颜色相同的概率是多少？用最简分数表示，格式如 3/10。", "max_new_tokens": 1024, "expected_answer": "2/5"}
-{"id": "MA-006", "category": "mathematics", "user": "计算 C(10,3) × C(7,2) 的值。只回答数字。", "max_new_tokens": 768, "expected_answer": "2520"}
-{"id": "PH-001", "category": "physics", "user": "一个质量 2 kg 的物体从 20 m 高处自由落下（不计空气阻力，g 取 10 m/s²）。落地时的动能是多少焦耳？只回答数字。", "max_new_tokens": 768, "expected_answer": "400"}
-{"id": "PH-002", "category": "physics", "user": "一个电阻为 4 Ω 的用电器接在 12 V 电源上，通电 5 分钟消耗的电能是多少焦耳？只回答数字。", "max_new_tokens": 768, "expected_answer": "10800"}
-{"id": "PH-003", "category": "physics", "user": "光从空气射入折射率为 1.5 的玻璃中（空气折射率取 1），折射角约为多少度？入射角为 30°，答案保留一位小数，只回答数字。", "max_new_tokens": 1024, "expected_answer": "19.5"}
-{"id": "PH-004", "category": "physics", "user": "一个 1000 kg 的汽车以 20 m/s 行驶，刹车后 4 秒停下。刹车过程中的平均制动力是多少牛顿？只回答数字。", "max_new_tokens": 768, "expected_answer": "5000"}
-{"id": "CH-001", "category": "chemistry", "user": "某元素原子的最外层电子构型为 3d⁵4s¹，该元素的原子序数是多少？只回答数字。", "max_new_tokens": 1024, "expected_answer": "24"}
-{"id": "CH-002", "category": "chemistry", "user": "在标准状况下，22.4 L 的氧气含有多少个氧气分子？用阿伏伽德罗常数表示为多少 NA，只回答数字。", "max_new_tokens": 768, "expected_answer": "1"}
-{"id": "CH-003", "category": "chemistry", "user": "完全燃烧 1 mol 的乙醇需要多少 mol 的氧气？只回答数字。", "max_new_tokens": 768, "expected_answer": "3"}
-{"id": "BI-001", "category": "biology", "user": "一个 DNA 双链片段中，腺嘌呤占碱基总数的 20%。胞嘧啶占多少百分比？只回答数字。", "max_new_tokens": 768, "expected_answer": "30"}
-{"id": "BI-002", "category": "biology", "user": "人类体细胞进行有丝分裂后，每个子细胞含有多少条染色体？只回答数字。", "max_new_tokens": 512, "expected_answer": "46"}
-{"id": "CS-001", "category": "computer_science", "user": "在含有 n 个元素的有序数组中进行二分查找，最坏情况下的比较次数是多少？用大 O 记号表示，格式如 O(n)。", "max_new_tokens": 768, "expected_answer": "O(log n)"}
-{"id": "CS-002", "category": "computer_science", "user": "一个完全二叉树有 1000 个结点，它的高度是多少？（根结点高度记为 1）只回答数字。", "max_new_tokens": 1024, "expected_answer": "10"}
-{"id": "CS-003", "category": "computer_science", "user": "对于 n 个元素，快速排序在最坏情况下的时间复杂度是多少？用大 O 记号表示。", "max_new_tokens": 768, "expected_answer": "O(n²)"}
-{"id": "CS-004", "category": "computer_science", "user": "一个 32 位有符号整数能表示的最大值是多少（十进制）？只回答数字。", "max_new_tokens": 768, "expected_answer": "2147483647"}
-{"id": "LO-001", "category": "logic", "user": "五个盒子排成一排。已知：红盒在白盒左边；蓝盒在最右端；绿盒紧挨着红盒右边；黑盒在第三个位置。白盒在第几个位置？只回答数字。", "max_new_tokens": 1024, "expected_answer": "4"}
-{"id": "LO-002", "category": "logic", "user": "若「所有 A 都是 B」为真，「有些 B 不是 C」为真，那么「有些 A 不是 C」是否必然为真？只回答「是」或「否」。", "max_new_tokens": 1024, "expected_answer": "否"}
-{"id": "LO-003", "category": "logic", "user": "有三个开关分别控制楼上三盏灯，你只能上楼一次。最少需要下楼几次才能确定对应关系？只回答数字。", "max_new_tokens": 1024, "expected_answer": "0"}
-{"id": "CL-001", "category": "chinese_classical", "user": "《岳阳楼记》中「先天下之忧而忧」的下一句是什么？只回答这一句。", "max_new_tokens": 512, "expected_answer": "后天下之乐而乐"}
-{"id": "CL-002", "category": "chinese_classical", "user": "「落霞与孤鹜齐飞」出自哪篇文章？只回答篇名。", "max_new_tokens": 512, "expected_answer": "滕王阁序"}
-{"id": "CL-003", "category": "chinese_classical", "user": "《史记》中「人固有一死」的下一句是什么？只回答这一句。", "max_new_tokens": 512, "expected_answer": "或重于泰山，或轻于鸿毛"}
+{"id": "REP-001", "category": "防重复", "user": "请列举中国的10个城市", "forbidden_keywords": ["北京", "上海"], "max_new_tokens": 256}
+{"id": "REP-002", "category": "防重复", "user": "请说出5种水果", "forbidden_keywords": ["苹果"], "max_new_tokens": 128}
+{"id": "REP-003", "category": "防重复", "user": "请告诉我如何做番茄炒蛋，步骤要清晰", "max_new_tokens": 512}
+{"id": "REP-004", "category": "防重复", "user": "请列举3种编程语言", "forbidden_keywords": ["Python"], "max_new_tokens": 64}
+{"id": "REP-005", "category": "防重复", "user": "请说出5个中国历史朝代", "forbidden_keywords": ["唐朝"], "max_new_tokens": 128}
+{"id": "REP-006", "category": "防重复", "user": "请列举5种动物", "forbidden_keywords": ["猫"], "max_new_tokens": 128}
+{"id": "REP-007", "category": "防重复", "user": "请说出5个省份名称", "forbidden_keywords": ["广东"], "max_new_tokens": 128}
+{"id": "REP-008", "category": "防重复", "user": "请列举5种颜色", "forbidden_keywords": ["红色"], "max_new_tokens": 128}
+{"id": "REP-009", "category": "防重复", "user": "请说出5个著名景点", "forbidden_keywords": ["故宫"], "max_new_tokens": 128}
+{"id": "REP-010", "category": "防重复", "user": "请列举5种乐器", "forbidden_keywords": ["钢琴"], "max_new_tokens": 128}
+{"id": "LOG-001", "category": "逻辑", "user": "2+4=？", "expected_answer": "6", "max_new_tokens": 32}
+{"id": "LOG-002", "category": "逻辑", "user": "中国首都是哪里？", "expected_answer": "北京", "max_new_tokens": 32}
+{"id": "LOG-003", "category": "逻辑", "user": "水在多少度沸腾？", "expected_answer": "100", "max_new_tokens": 32}
+{"id": "LOG-004", "category": "逻辑", "user": "1+1=？", "expected_answer": "2", "max_new_tokens": 32}
+{"id": "LOG-005", "category": "逻辑", "user": "中国有多少个省份？", "expected_answer": "34", "max_new_tokens": 32}
+{"id": "LOG-006", "category": "逻辑", "user": "地球绕太阳转一圈多久？", "expected_answer": "365", "max_new_tokens": 32}
+{"id": "LOG-007", "category": "逻辑", "user": "人体有多少块骨头？", "expected_answer": "206", "max_new_tokens": 32}
+{"id": "LOG-008", "category": "逻辑", "user": "中国面积是多少？", "expected_answer": "960", "max_new_tokens": 32}
+{"id": "LOG-009", "category": "逻辑", "user": "3+5=？", "expected_answer": "8", "max_new_tokens": 32}
+{"id": "LOG-010", "category": "逻辑", "user": "中国有多少个直辖市？", "expected_answer": "4", "max_new_tokens": 32}
+{"id": "ID-001", "category": "身份", "user": "李天祎是谁？", "expected_keywords": ["创始人", "CEO", "TAI Research"], "max_new_tokens": 128}
+{"id": "ID-002", "category": "身份", "user": "你是什么模型？", "expected_keywords": ["GTC-2.5", "TAI Research"], "max_new_tokens": 128}
+{"id": "ID-003", "category": "身份", "user": "GTC-2.5是什么？", "expected_keywords": ["TAI Research", "基座模型"], "max_new_tokens": 128}
+{"id": "ID-004", "category": "身份", "user": "杨元硕是谁？", "expected_keywords": ["模型开发", "主管", "TAI Research"], "max_new_tokens": 128}
+{"id": "ID-005", "category": "身份", "user": "TAI Research是什么公司？", "expected_keywords": ["大语言模型", "AI", "研发"], "max_new_tokens": 128}
